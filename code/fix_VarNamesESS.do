@@ -2,7 +2,7 @@
 * Fix (align) variable names in ESS data
 * ============================================
 
-cd "/Users/jeppeviero/Dropbox/03 Football/IntMatches/data/ESS"
+cd "/Users/jeppeviero/Library/Mobile Documents/com~apple~CloudDocs/Data/ESS"
 
 
 // ESS 1

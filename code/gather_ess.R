@@ -14,7 +14,7 @@ substrRight <- function(x, n){
   substr(x, nchar(x)-n+1, nchar(x))
 }
 
-setwd("/Users/jeppeviero/Dropbox/02 PhD/0 Papers/15 football")
+setwd("/Users/jeppeviero/Dropbox/03 Football/IntMatches")
 
 # ---------------------------------------------------------
 # Load data
@@ -135,8 +135,8 @@ ess <- ess %>%
 str(ess)
 
 # ----- Export data
-setwd("/Users/jeppeviero/Dropbox/02 PhD/0 Papers/15 football")
+setwd("/Users/jeppeviero/Library/Mobile Documents/com~apple~CloudDocs/Data/ESS")
 save(ess,
-     file = "data/ess_surveys.Rdata")
+     file = "ess_surveys.Rdata")
 
-rm(ess_list, temp, ess)
+rm(list=ls())
